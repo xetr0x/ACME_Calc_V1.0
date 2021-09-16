@@ -15,36 +15,47 @@ namespace ACME_Calc_V1._0
         public Form1()
         {
             InitializeComponent();
+
+
         }
+
 
         private void button1_Click(object sender, EventArgs e)
         {
+            int i, j;
+            i = Int32.Parse(textBox1.Text);
+            j = Int32.Parse(textBox2.Text);
+            listBox1.Items.Add($"{i} + {j} = {i + j}");
+            listBox1.Items.Add($"{j} + {i} = {j + i}");
 
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-
+            int i, j;
+            i = Int32.Parse(textBox1.Text);
+            j = Int32.Parse(textBox2.Text);
+            listBox1.Items.Add($"{i} - {j} = {i - j}");
+            listBox1.Items.Add($"{j} - {i} = {j - i}");
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-
+            int i, j;
+            i = Int32.Parse(textBox1.Text);
+            j = Int32.Parse(textBox2.Text);
+            listBox1.Items.Add($"{i} / {j} = {i / j}");
+            listBox1.Items.Add($"{j} / {i} = {j / i}");
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
-
+            int i, j;
+            i = Int32.Parse(textBox1.Text);
+            j = Int32.Parse(textBox2.Text);
+            listBox1.Items.Add($"{i} * {j} = {i * j}");
+            listBox1.Items.Add($"{j} * {i} = {j * i}");
         }
 
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox2_TextChanged(object sender, EventArgs e)
-        {
-
-        }
     }
 }
