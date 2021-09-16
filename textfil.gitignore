@@ -1,0 +1,2 @@
+problemet med lösningen är att man måste skriva om koden till varje knapp. jag vet inte riktigt hur man skulle kunna göra för att den ska inte krasha vid felaktiga inmatningar då bl.a if satsen fungerar inte. Vad skulle kunna förbätras 
+är att skriva in definitionen för j och i bara på en plats, men hittils har jag inte hittat något sätt. Så fort jag försökte göra int globala krashade allt ihop. 
